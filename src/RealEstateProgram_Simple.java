@@ -7,6 +7,10 @@ public class RealEstateProgram_Simple {
     public static void main(String[] args) {
         final double NOT_AVAILABLE = 100.0;
         
+<<<<<<< HEAD
+=======
+        Scanner sc = new Scanner(System.in);
+>>>>>>> 0fd436dd08a44db3665ec9cc97e7113beb3bf5cf
         
         String propertyName = "";
         Double propertyListPrice = 700000.0;
