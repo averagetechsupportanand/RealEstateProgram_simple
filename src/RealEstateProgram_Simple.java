@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class RealEstateProgram_Simple {
-    public static final int MONTHS_IN_YEAR = 12.0;
+    public static final double MONTHS_IN_YEAR = 12.0;
     
     public static void main(String[] args) {
         final double NOT_AVAILABLE = 100.0;
@@ -47,9 +47,9 @@ public class RealEstateProgram_Simple {
         Double propertyTaxRate = 1.82;
 
 
-        System.out.println(name + "Property Numbers:");
+        System.out.println(propertyName + "Property Numbers:");
         System.out.println();
-        for (double price = listPrice; price < listPrice + 100000; price += 1000.0) {
+        for (double price = propertyListPrice; price < propertyListPrice + 100000; price += 1000.0) {
 
             double highestROI = Integer.MIN_VALUE;
             String highestROIString = "";
