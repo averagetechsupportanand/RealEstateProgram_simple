@@ -105,15 +105,15 @@ public class RealEstateProgram_Simple {
                             highestROIString += String.format("Happens at %d years with a down"
                                                               + "payment of %.2f%%.\n", year, downPaymentPercentage);
                             
-                            highestROIString += "The interest paid is " + interestPaid + ".\n";
-                            highestROIString += "The equity paid is " + equityPaid + ".\n";
+                            highestROIString += String.format("The interest paid is " + interestPaid + ".\n");
+                            highestROIString += String.format("The equity paid is %.2f.\n", equityPaid);
                             highestROIString += "It is loan type: " + index + ".\n";
-                            highestROIString += "The total cost to date is " + costToDate + ".\n";
-                            highestROIString += "The revenue to date is " + revenueToDate + ".\n";
-                            highestROIString += "The total cash invested is " + totalCashInvested + ".\n";
-                            highestROIString += "The NOI is " + NOI + ".\n";
-                            highestROIString += "The CAP is " + CAP + ".\n";
-                            highestROIString += "The annualized cash on cash is " + annualizedCashOnCash + ".\n";
+                            highestROIString += String.format("The total cost to date is %.2f.\n", costToDate);
+                            highestROIString += String.format("The revenue to date is %.2f.\n", revenueToDate);
+                            highestROIString += String.format("The total cash invested is %.2f.\n", totalCashInvested);
+                            highestROIString += String.format("The NOI is %.2f.\n", NOI);
+                            highestROIString += String.format("The CAP is %.2f.\n", CAP);
+                            highestROIString += String.format("The annualized cash on cash is %.2f.\n", annualizedCashOnCash);
                         }
                     }
                 }
