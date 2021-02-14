@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//peen
 public class RealEstateProgram_Simple {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
