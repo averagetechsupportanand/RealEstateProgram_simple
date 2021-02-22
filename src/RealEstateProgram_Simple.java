@@ -54,7 +54,7 @@ public class RealEstateProgram_Simple {
         System.out.println();
 
         for (double price = propertyListPrice; price < propertyListPrice + 100_000; price += 1_000.0) {
-
+ 
             double highestROI = Integer.MIN_VALUE;
             String highestROIString = "";
 
